@@ -1,6 +1,6 @@
 if status is-interactive
     # --- Настройки интерфейса ---
-    set -g fish_greeting "" # Убираем стандартное приветствие
+    set -g fish_greeting "" 
 
     # --- Алиасы (Удобство и Скорость) ---
     # Основной редактор - micro
@@ -27,9 +27,3 @@ if status is-interactive
     # --- Инициализация промпта ---
     starship init fish | source
 end
-
-# Функция для вывода системной инфы при старте (по желанию)
-# Можно раскомментировать, если хочешь видеть neofetch при открытии
-# if status is-interactive
-#    neofetch
-# end
