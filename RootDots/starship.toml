@@ -1,6 +1,6 @@
-add_newline = true # Добавим пустую строку перед промптом для "воздуха"
+add_newline = true
 
-# Формат: Первая строка с инфой, затем перенос и символ ввода
+
 format = """
 [](#6c8c72)\
 [ ](bg:#6c8c72 fg:#121615)\
@@ -32,6 +32,5 @@ format = "[($all_status$ahead_behind )]($style)"
 disabled = false
 
 [character]
-# Символ ввода на второй строке, чуть с отступом
 success_symbol = " [󰄾](bold #6c8c72) "
 error_symbol = " [󰄾](bold #a54242) "
