@@ -5,12 +5,12 @@
 ---
 
 ### 🛠 Компоненты
-* **WM**: Hyprland (скругления 12px, активный бордер в цвет хвои).
-* **Shell**: Fish + Starship (двухстрочный промпт без лишнего мусора).
-* **Terminal**: Kitty (blur + прозрачность 0.95).
-* **Bar**: Waybar (максимально компактный, только важная инфа).
-* **Menu**: Fuzzel (приложения, история буфера и powermenu).
-* **Visuals**: CAVA в лесных градиентах и Fastfetch с мини-лого.
+* **WM**: Hyprland.
+* **Shell**: Fish + Starship.
+* **Terminal**: Kitty.
+* **Bar**: Waybar
+* **Menu**: Fuzzel .
+* **Visuals**: Cava и awww.
 
 ### ⌨️ Хоткеи
 * `SUPER + Enter` — Вызов терминала (Kitty).
