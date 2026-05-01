@@ -6,7 +6,7 @@
 }
 
 window#waybar {
-    background: rgba(18, 22, 21, 0.85); /* Цвет фона как в Kitty */
+    background: rgba(18, 22, 21, 0.85); 
     color: #cbd5d0;
     border-radius: 10px;
 }
@@ -17,15 +17,15 @@ window#waybar {
 
 #workspaces button {
     padding: 0 10px;
-    color: #515e5c; /* Неактивные — тусклые */
+    color: #515e5c; 
     font-size: 15px;
     transition: all 0.3s ease;
 }
 
 #workspaces button.active {
-    color: #6c8c72; /* Твой зеленый из Kitty */
+    color: #6c8c72; 
     font-weight: bold;
-    border-bottom: 2px solid #6c8c72; /* Тонкая линия под активным номером */
+    border-bottom: 2px solid #6c8c72; 
 }
 
 #workspaces button:hover {
