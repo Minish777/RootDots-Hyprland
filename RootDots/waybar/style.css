@@ -1,0 +1,48 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "JetBrains Mono Nerd Font", "Symbols Nerd Font Mono";
+    font-size: 14px;
+}
+
+window#waybar {
+    background: rgba(18, 22, 21, 0.85); /* Цвет фона как в Kitty */
+    color: #cbd5d0;
+    border-radius: 10px;
+}
+
+#workspaces {
+    margin: 0 4px;
+}
+
+#workspaces button {
+    padding: 0 10px;
+    color: #515e5c; /* Неактивные — тусклые */
+    font-size: 15px;
+    transition: all 0.3s ease;
+}
+
+#workspaces button.active {
+    color: #6c8c72; /* Твой зеленый из Kitty */
+    font-weight: bold;
+    border-bottom: 2px solid #6c8c72; /* Тонкая линия под активным номером */
+}
+
+#workspaces button:hover {
+    background: rgba(108, 140, 114, 0.1);
+    color: #cbd5d0;
+}
+
+#language, #pulseaudio, #network, #battery, #clock, #tray {
+    padding: 0 10px;
+}
+
+/* Акцентный зеленый для иконок */
+#language, #pulseaudio, #network, #battery {
+    color: #6c8c72;
+}
+
+#clock {
+    color: #cbd5d0;
+    font-weight: bold;
+}
